@@ -10,8 +10,10 @@
 The diagram below maps out how our development environment connects local code 
 authoring to remote version tracking, using a **Diagrams-as-Code** design pipeline. 
  
-```mermaid --- 
-title: Streamy Production Architecture Proof --- 
+```mermaid
+--- 
+title: Streamy Production Architecture Proof
+--- 
 flowchart TD 
     %% Base Diagram Configurations and Properties 
      
@@ -25,3 +27,4 @@ flowchart TD
     LiveSandbox -- 2. Verified Block Migration --> LocalIDE 
     LocalIDE -- 3. git add CLI Operations --> GitStage 
     GitStage -- 4. git push Pipeline Push --> RemoteHub 
+```
