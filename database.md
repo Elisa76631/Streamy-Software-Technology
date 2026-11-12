@@ -3,9 +3,10 @@
  
 ### 1. Relational Database Mapping Analysis 
 This persistent data architecture document translates our dynamic object-oriented application 
+
 design into a high-performance relational storage layer. By enforcing key constraints and 
 explicit cascading relations, we prevent data orphan bugs inside our streaming backend 
-application. 
+application...
  
 ### 2. Production Entity Relationship Diagram (ERD) 
 The database schema chart below details all table columns, identity keys, and primary-to-foreign 
