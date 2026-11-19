@@ -29,7 +29,7 @@ UI -- Requests Metadata --> Core
 Core -- Queries --> Tax 
 Core -- Computes Metrics --> Calc 
 UI -- Streams Video Stream --> CDN 
-``` 
+
  
 ### 3. Core Structural Domain Entities 
 The baseline software codebase architecture relies explicitly on the following 

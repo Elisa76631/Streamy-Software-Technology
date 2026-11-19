@@ -25,3 +25,26 @@ end
 E:::decisionStyle
 classDef decisionStyle fill:#f9f,stroke:#333,stroke-width:2px;
 ```
+
+## Architecture Diagrams
+
+```mermaid
+flowchart LR
+    Client[Web Client] -->|HTTPS| API[API Gateway]
+    API --> Service[Listing Service]
+    Service --> DB[(Database)]
+```
+
+```mermaid
+classDiagram
+    direction LR
+    class Order {
+        +int OrderId
+        +string Status
+    }
+    class Customer {
+        +int CustomerId
+        +string Name
+    }
+    Customer "1" --> "0..*" Order : places
+```
